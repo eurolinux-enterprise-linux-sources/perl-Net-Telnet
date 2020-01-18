@@ -1,7 +1,7 @@
 Name: perl-Net-Telnet
 Summary: Net-Telnet Perl module
 Version: 3.03
-Release: 18%{?alphatag:.%{alphatag}}%{?dist}
+Release: 19%{?alphatag:.%{alphatag}}%{?dist}
 Group: Development/Libraries
 License: GPL+ or Artistic
 URL: http://search.cpan.org/dist/Net-Telnet/
@@ -55,6 +55,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.03-19
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 3.03-18
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
